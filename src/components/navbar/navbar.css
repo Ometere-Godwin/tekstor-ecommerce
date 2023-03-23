@@ -1,0 +1,65 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  position: sticky;
+  top: 0;
+  justify-content: space-between;
+  background-color: white;
+}
+
+.leftNavbarContainer  img {
+  width: 8em;
+  cursor: pointer;
+  margin-left: 3em;
+}
+
+.middleNavbarContainer > ul {
+  display: flex;
+  gap: 2em;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.middleNavbarContainer > ul > li{
+    text-transform: uppercase;
+    list-style: none;
+    cursor: pointer;
+}
+
+.rightNavbarContainer{
+    display: flex;
+    align-items: center;
+    margin-right: 3em;
+}
+
+.cartContainer{
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.cart{
+    width: 2em;
+    margin-right: 1em;
+    position: relative;
+}
+
+.number{
+    position: relative;
+    top: -1em;
+    right: 2em;
+    background-color: black;
+    border-radius: 50%;
+    color: white;
+    padding: 3px;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+}
+
+.avatar{
+    width: 2em;
+}
